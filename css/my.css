@@ -1,0 +1,50 @@
+.slider-text-inner .desc {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 40px 24px;
+}
+#colorlib-hero .slider-text-inner .desc h1.head-1,
+#colorlib-hero .slider-text-inner .desc h2.head-3 {
+    color: rgb(71, 68, 63);
+}
+
+.product-entry .prod-img {
+    height: 171px;
+    display: grid;
+    align-items: center;
+}
+
+.mobile-cart {
+    display: none
+}
+
+@media (max-width: 767.98px){
+    .mobile-cart {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 88px;
+        font-weight: 400;
+        font-family: "Rokkitt", Georgia, serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .mobile-cart {
+        display: block;
+        position: absolute;
+        right: 60px;
+        top: 48px;
+        font-weight: 400;
+        font-family: "Rokkitt", Georgia, serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+.colorlib-nav ul li.has-dropdown .dropdown {
+    top: 2px;
+}
