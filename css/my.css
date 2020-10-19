@@ -7,7 +7,7 @@
     color: rgb(71, 68, 63);
 }
 
-.product-entry .prod-img {
+.product-entry .prod-img .my-prod-img {
     height: 171px;
     display: grid;
     align-items: center;
@@ -47,4 +47,28 @@
 
 .colorlib-nav ul li.has-dropdown .dropdown {
     top: 2px;
+}
+
+.news {
+    line-height: 60px;
+    display: block;
+    border-bottom: 1px #88c8bc  solid;
+}
+
+.news:after {
+    content: 'more';
+    position: absolute;
+    right: 24px;
+}
+
+.news-title{
+    margin-left: 20px;
+}
+
+.colorlib-faq{
+    margin-top: 20px;
+}
+
+.colorlib-product{
+    padding-top: 20px;
 }
